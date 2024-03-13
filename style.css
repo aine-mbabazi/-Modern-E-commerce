@@ -1,0 +1,84 @@
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px 20px;
+    color: black;
+    text-align: justify;
+}
+#introduction{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+}
+.introduction{
+    text-align: center;
+}
+.image1{
+    align-items: end;
+
+}
+#forher{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    flex-flow: 1;
+}
+.forher section{
+    vertical-align: text-top;
+    font-size: xx-large;
+}
+.image3{
+    display: flexbox;
+    align-content: flex-start;
+}
+#intro2{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+
+}
+.background{
+    position: absolute;
+    background-position: center;
+
+}
+#forHim{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#end{
+    width: 1800px;
+    align-content: center;
+
+
+}
+
+@media(max-width:375px) {
+    .navbar{
+        /* align-items: center;
+        justify-content: space-between; */
+        margin: 10px;
+        padding: 10px 10px;
+        color: black;
+        text-align: justify;
+        
+    } 
+
+    #forHim{
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+}
